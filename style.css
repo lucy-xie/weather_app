@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+    margin: 0;
+    font-family: 'Open Sans', serif;
+    background-image: url('https://source.unsplash.com/1600x900/?flower')
+
+}
+
+.frame{
+    background: rgba(0, 0, 0, .8);
+    color: white;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 3em;
+    line-height: 100%;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 460px;
+    margin: 1em;
+
+}
+
+.status {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.search-bar {
+    height: 3em;
+    width: 25em;
+    padding: 0em 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 30px;
+    border: none;
+    font-family: "Open Sans", serif;
+}
+
+.search-button{
+    border-radius: 50px;
+    height: 3em;
+    width: 3em;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.search-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.description {
+    text-transform: capitalize;
+}
