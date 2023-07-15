@@ -13,4 +13,4 @@ This is a simple weather app that allows the user to check the weather condition
 
 [Check it out yourself!](https://lucy-xie.github.io/weather_app/)
 
-![Preview of Weather App](images\preview.png)
+<img src="images/preview.png" alt="Alt Text" width="650" height="360" />
